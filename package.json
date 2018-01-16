@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/rifkegribenes/request-header-parser-ms/issues"
   },
-  "homepage": "https://github.com/rifkegribenes/request-header-parser-ms#readme"
+  "homepage": "https://github.com/rifkegribenes/request-header-parser-ms#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
