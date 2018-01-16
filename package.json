@@ -1,0 +1,23 @@
+{
+  "name": "request-header-parser-ms",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice (freeCodeCamp Back-End API project #2)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifkegribenes/request-header-parser-ms.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Sarah Schneider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rifkegribenes/request-header-parser-ms/issues"
+  },
+  "homepage": "https://github.com/rifkegribenes/request-header-parser-ms#readme"
+}
