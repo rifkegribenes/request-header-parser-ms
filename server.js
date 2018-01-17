@@ -33,6 +33,7 @@ app.get('*', (req, res) => {
     fullUrl: fullUrl,
     title: 'Request Header Parser Microservice'
   });
+});
 
 const server = http.createServer(app);
 const port = process.env.PORT || '3000';
