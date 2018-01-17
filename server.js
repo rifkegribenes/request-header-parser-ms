@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 	const ipaddress = req.ip;
 
 	res.json({'ipaddress': ipaddress, 'language': language[0], 'software': software});
-});
+
 app.listen(port, () => {
   console.log(`Server listening on port ${port}!`);
 });

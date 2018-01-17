@@ -4,8 +4,12 @@
   "description": "Request Header Parser Microservice (freeCodeCamp Back-End API project #2)",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 9e6cfaddbb7083819329df68fd64ce58430e60ef
   },
   "repository": {
     "type": "git",
