@@ -69,7 +69,7 @@ header {
 
 .card__url {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 10px;
 }
 
@@ -83,6 +83,7 @@ header {
   color: white;
   font-weight: 700;
   border-top: 10px;
+  display: block;
 }
 
 .card__action:hover {
