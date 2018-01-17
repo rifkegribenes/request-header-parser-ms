@@ -1,28 +1,29 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-
-  "name": "my-glitch-app",
-  "version": "0.0.1",
-  "description": "What am I about?",
+  "name": "request-header-parser-ms",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice (freeCodeCamp Back-End API project #2)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.16.2"
-  },
-  "engines": {
-    "node": "8.x"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
+    "type": "git",
+    "url": "git+https://github.com/rifkegribenes/request-header-parser-ms.git"
   },
-  "license": "MIT",
   "keywords": [
     "node",
-    "glitch",
     "express"
-  ]
+  ],
+  "author": "Sarah Schneider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rifkegribenes/request-header-parser-ms/issues"
+  },
+  "homepage": "https://github.com/rifkegribenes/request-header-parser-ms#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-useragent": "^1.0.8"
+  }
 }
