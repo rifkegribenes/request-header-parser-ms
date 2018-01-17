@@ -18,7 +18,7 @@ app.get(api, (req, res, next) => {
 	const ipaddress = req.ip;
 
 	res.json({'ipaddress': ipaddress, 'language': language[0], 'software': software});
-});
+})
 
 // return the same info at the home route also because i don't feel like building a UI for this thing
 app.get('/', (req, res) => {
@@ -27,8 +27,7 @@ app.get('/', (req, res) => {
 	const ipaddress = req.ip;
 
 	res.json({'ipaddress': ipaddress, 'language': language[0], 'software': software});
-
+});
 app.listen(port, () => {
   console.log(`Server listening on port ${port}!`);
 });
-  
