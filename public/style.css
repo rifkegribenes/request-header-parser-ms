@@ -36,7 +36,7 @@ header {
 }
 
 .col-1 {
-  min-width: 48%;
+  max-width: 48%;
 }
 
 .col-2 {
@@ -70,7 +70,7 @@ header {
 .card__url {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin: 0 10px 10px 0;
 }
 
 .card__action {
