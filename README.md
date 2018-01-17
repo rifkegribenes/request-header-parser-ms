@@ -14,7 +14,3 @@
 	}
 
 ```
-
-#### Screenshot:
-
-![request-header-parser-micoservice-ui](url)
