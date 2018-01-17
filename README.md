@@ -1,18 +1,17 @@
-# My cool website
+## Request Header Parser Microservice (Freecodecamp Project)
 
-This file describes your project to the community. What's your cool website about? What makes it special?
+### User stories:
 
-ヽ(๏∀๏ )ﾉ
+* I can get the IP address, language and operating system for my browser.
 
-## ← index.html
+#### Example Output:
 
-Where you'll write the content of your website. 
+```javascript
+	{
+	"ipaddress":"0.0.0.0",
+	"language":"en-US",
+	"software":"Macintosh; Intel Mac OS X 10_12_6"
+	}
 
-## ← styles.css
-
-CSS files add styling rules to your content
-
-## ← script.js
-
-If you're feeling fancy you can add interactivity to your site with Javascript
+```
 
