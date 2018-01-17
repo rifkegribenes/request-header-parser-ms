@@ -16,6 +16,7 @@ app.use(express.static('public'));
 
 app.set('view engine', 'pug');
 
+// return the user agent, ip address, and language at the api/whoami route
 const api = '/api/whoami';
 app.get(api, (req, res, next) => {
 	const language = req.acceptsLanguages();
@@ -32,7 +33,6 @@ app.get('*', (req, res) => {
     fullUrl: fullUrl,
     title: 'Request Header Parser Microservice'
   });
-});
 
 const server = http.createServer(app);
 const port = process.env.PORT || '3000';
