@@ -15,3 +15,7 @@
 
 ```
 
+#### Screenshot:
+
+![request-header-parser-ms screenshot](https://raw.githubusercontent.com/rifkegribenes/request-header-parser-ms/master/Screen%20Shot%202018-01-17%20at%203.13.44%20PM.png)
+

@@ -14,7 +14,7 @@ body {
 
 .container{
   width: 100%;
-	max-width: 1200px;
+	max-width: 800px;
   margin: 25px auto;
 }
 
@@ -36,11 +36,11 @@ header {
 }
 
 .col-1 {
-  min-width: 60%;
+  min-width: 48%;
 }
 
 .col-2 {
-  min-width: 38%;
+  min-width: 48%;
 }
 
 @media (max-width: 600px) {
